@@ -1,0 +1,96 @@
+main {
+  display: flex;
+  flex-direction: row;
+  background-color: #f6f6c9;
+}
+
+img {
+  max-width: 110px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 50%;
+  background-color: #bad1c2;
+  width: 200px;
+  height: 600px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 6px;
+  flex-grow: 2;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+}
+
+.order {
+  display: flex;
+  flex-direction: row;
+  background-color: #bad1c2;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.batal {
+  background-color: #bad1c2;
+  border-color: red;
+  border-style: solid;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 6px;
+  color: red;
+}
+
+.bayar {
+  background-color: #bad1c2;
+  border-color: green;
+  color: green;
+  border-style: solid;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.menu_total {
+  flex-grow: 1;
+}
+
+.total {
+  background-color: #bad1c2;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 6px;
+  flex-grow: 2;
+}
+
+.makan {
+  background-color: #f6f6c9;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+  color: white;
+  background-color: #153462;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #153462;
+  text-align: center;
+  font-weight: bold;
+}

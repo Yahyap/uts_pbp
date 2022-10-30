@@ -8,5 +8,8 @@ loginButton.addEventListener("click", (e) => {
   if (username === "1" && password === "1") {
     // If the credentials are valid, show an alert box and reload the page
     window.location.href = "index.html";
+  } else {
+    alert("Username atau Password salah");
+    location.reload();
   }
 });
