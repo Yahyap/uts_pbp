@@ -5,7 +5,7 @@ main {
 }
 
 img {
-  max-width: 110px;
+  max-width: 140px;
 }
 
 .menu {
@@ -27,30 +27,42 @@ img {
 .order {
   display: flex;
   flex-direction: row;
-  background-color: #bad1c2;
   margin: 10px;
   padding: 20px;
   border-radius: 6px;
+  justify-content: center;
 }
 
 .batal {
-  background-color: #bad1c2;
   border-color: red;
   border-style: solid;
+  color: red;
+  cursor: pointer;
   margin: 10px;
   padding: 20px;
   border-radius: 6px;
-  color: red;
 }
 
 .bayar {
-  background-color: #bad1c2;
   border-color: green;
   color: green;
+  cursor: pointer;
   border-style: solid;
   margin: 10px;
   padding: 20px;
   border-radius: 6px;
+}
+
+.batal:hover {
+  background-color: red;
+  border-style: solid;
+  color: #bad1c2;
+}
+
+.bayar:hover {
+  background-color: green;
+  color: #bad1c2;
+  cursor: pointer;
 }
 
 .menu_total {
@@ -66,17 +78,38 @@ img {
 }
 
 .makan {
-  background-color: #f6f6c9;
+  background-color: #f2f2f2;
   margin: 10px;
   padding: 20px;
   border-radius: 6px;
   text-align: center;
+  cursor: pointer;
 }
 
 body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #04aa6d;
+  color: white;
+}
+
+td {
+  background-color: #f2f2f2;
 }
 
 header {
