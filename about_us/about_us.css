@@ -33,7 +33,7 @@ main {
   padding: 16px;
 }
 
-.input_section {
+.artikel {
   display: flex;
   flex-direction: column;
   padding: 16px;
@@ -42,119 +42,40 @@ main {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.input_section > h2 {
+.artikel > h1 {
   text-align: center;
   color: #411530;
 }
 
-.input_section > form > .input {
-  margin: 8px 0;
-}
-
-.input_section > form > button {
-  background-color: #411530;
-  color: white;
-  border: 0;
-  border-radius: 5px;
-  display: block;
-  width: 100%;
-  padding: 8px;
-  cursor: pointer;
-}
-
-.input_section > form > button:hover {
-  background-color: white;
+.artikel > h2 {
+  text-align: center;
   color: #411530;
-  border: 0;
-  border-radius: 5px;
-  display: block;
-  font-weight: bold;
 }
 
-.input_section > form > button > span {
-  font-weight: bold;
+.artikel > img {
+  max-width: 200px;
+  margin: auto;
 }
 
-.input_section > form > .input > input {
-  display: block;
-  width: 100%;
-  padding: 8px;
-  border-radius: 5px;
+.artikel > p {
+  margin: 10px;
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
 }
 
-.input_section > form > .input > label {
-  color: #411530;
-  font-weight: bold;
-}
-
-.input_section > form > .input_inline {
-  margin: 12px 0;
+.deskrip {
   display: flex;
-  align-items: center;
-}
-
-.input_section > form > .input_inline > label {
-  color: #411530;
-  font-weight: bold;
-  margin-right: 10px;
-}
-
-.book_shelf {
-  margin: 16px 0 0 0;
-  padding: 16px;
-  border-radius: 10px;
-  background-color: #f2f2f2;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.book_shelf > h2 {
-  color: #411530;
-}
-
-.book_shelf > .book_list {
+  flex-direction: row;
+  margin: 10px;
   padding: 16px;
 }
 
-.book_shelf > .book_list > .book_item {
-  padding: 8px 16px 16px 16px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  margin: 10px 0;
-}
-
-.book_shelf > .book_list > .book_item > h3,
-p {
-  margin: 8px 0;
-}
-
-.book_shelf > .book_list > .book_item > .action > button {
-  border: 0;
-  padding: 5px;
-  margin: 0 5px 0 0;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.book_shelf > .book_list > .book_item > .action > .green {
-  background-color: darkgreen;
-  color: white;
-}
-
-.book_shelf > .book_list > .book_item > .action > .green:hover {
-  background-color: white;
-  color: darkgreen;
-  font-weight: bold;
-}
-
-.book_shelf > .book_list > .book_item > .action > .red {
-  background-color: darkred;
-  color: white;
-}
-
-.book_shelf > .book_list > .book_item > .action > .red:hover {
-  background-color: white;
-  color: darkred;
-  font-weight: bold;
+.deskrip > p {
+  margin: 10px;
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
 }
 
 .action {
