@@ -7,5 +7,5 @@ logoutButton.addEventListener("click", function () {
 const homeButton = document.getElementById("Home");
 
 homeButton.addEventListener("click", function () {
-  window.location.href = "../index/index.html";
+  window.location.href = "../index.html";
 });
