@@ -72,7 +72,7 @@ main {
 }
 
 .button:hover {
-  background: none #a8c2ff;
+  background: none;
   color: #411530;
 }
 

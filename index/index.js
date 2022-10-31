@@ -169,6 +169,18 @@ function undoBookFromCompleted(bookId) {
   document.dispatchEvent(new Event(RENDER_EVENT));
 }
 
+const logoutButton = document.getElementById("Logout");
+
+logoutButton.addEventListener("click", function () {
+  window.location.href = "../login/login.html";
+});
+
+const aboutusButton = document.getElementById("aboutUs");
+
+aboutusButton.addEventListener("click", function () {
+  window.location.href = "../about_us/about_us.html";
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   const submitForm = document.getElementById("inputBook");
 
