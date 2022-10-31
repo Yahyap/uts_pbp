@@ -8,22 +8,28 @@
     <title>Login</title>
   </head>
   <body>
+    <header>
+      <div class="head_bar">
+        <h1 class="head_bar__title">Bookshelf</h1>
+      </div>
+    </header>
     <main>
-      <form id="login-form">
-        <div class="login-box">
-          <h1>Login</h1>
-          <div class="textbox">
-            <input type="text" placeholder="Username" name="username" value="" />
-          </div>
-
-          <div class="textbox">
-            <input type="password" placeholder="Password" name="password" value="" />
-          </div>
-
-          <input class="button" type="submit" name="login" value="Sign In" id="login-form-submit" />
+      <form id="login-form" class="login-box">
+        <h1>Login</h1>
+        <div class="textbox">
+          <input type="text" placeholder="Username" name="username" value="" />
         </div>
+
+        <div class="textbox">
+          <input type="password" placeholder="Password" name="password" value="" />
+        </div>
+
+        <input class="button" type="submit" name="login" value="Sign In" id="login-form-submit" />
       </form>
     </main>
+    <footer>
+      <p>&#169; 2022 Mahir MTK. All Rights Reserved</p>
+    </footer>
     <script src="login.js"></script>
   </body>
 </html>
